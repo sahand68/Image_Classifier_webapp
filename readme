@@ -1,0 +1,2 @@
+This is a web based image classifier that uses tensorflow.js. You can train 3 additional classes in addition imagnet classes.
+To use, clone the repository and open the html file in your browser.
