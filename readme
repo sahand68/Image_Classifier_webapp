@@ -1,2 +1,4 @@
-This is a web based image classifier that uses tensorflow.js. You can train 3 additional classes in addition imagnet classes.
-To use, clone the repository and open the html file in your browser.
+This is a web based image classifier that uses tensorflow.js. You can teach the network to identify 3 classes. /
+Hold the item you want to be identified infront of the camera and click on the class bottom 3 times while moving the object 
+infront of the camera.
+Do this 2 more time with 2 other objects.
