@@ -63,18 +63,14 @@ async function app() {
 	        probability: ${result.confidences[result.classIndex]}
 	      `;
     }
-    else { 
-
+    else {
       const result = await net.classify(webcamElement);
-
-    document.getElementById('console').innerText = `
-      prediction: ${result[0].className}\n
-      probability: ${result[0].probability}
+      const No_class = 'No identifiable class'
+      document.getElementById('console').innerText = `
+      prediction: ${No_class}\n
+     
     `;}
-
-
-
-    
+  
   }
   await tf.nextFrame();
 	}
